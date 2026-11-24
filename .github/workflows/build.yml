@@ -9,7 +9,7 @@ on:
       - main
 
 env:
-  PROJECT_PATH: ./src/MyApp/MyApp.csproj
+  PROJECT_PATH: ./src/ProjectThatDoesNotExist/Project.csproj
 
 jobs:
   build:
